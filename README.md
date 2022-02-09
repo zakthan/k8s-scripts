@@ -1,1 +1,1 @@
-= General purpose scripts for k8s
+# General purpose scripts for k8s
