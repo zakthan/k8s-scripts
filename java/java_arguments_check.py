@@ -31,6 +31,7 @@ except:
   ##Get a list of the namespaces. 
   get_namespaces_command="kubectl get ns --no-headers -o jsonpath='{.items[*].metadata.name}'"
   list_of_namespaces = output_command(get_namespaces_command)
+  print("PARSING ALL NAMESPACES")
 
 
 
