@@ -1,0 +1,634 @@
+Now checking POD: jenkins-df6c84d8d-8pbfl  for current_namespace  jx
+root 8 1 4 15:35 ? 00:05:26 java -Duser.home=/var/jenkins_ho
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace jx : Found 1 pods  without MaxRAMPercentage defined. Total number of java pods found: 1
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace kube-node-lease : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace kube-public : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace minio : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace mongoch : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace octant : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: ak-admin-56446849c9-mtgz6  for current_namespace  prod-ak
+1 root 1h31 java -XX:+UseContainerSupport -Duser.timezone=Europe/Athen
+Now checking POD: ak-audit-f55f7df5d-hxpst  for current_namespace  prod-ak
+1 root 47:33 java -XX:+UseContainerSupport -Duser.timezone=Europe/Athen
+Now checking POD: ak-usagemanagement-6bd446bf9c-l4pzw  for current_namespace  prod-ak
+1 root 1h23 java -XX:+UseContainerSupport -Duser.timezone=Europe/Athen
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-ak : Found 3 pods  without MaxRAMPercentage defined. Total number of java pods found: 3
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-analytics : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: c1ng-deployment-8fcf69bfc-c4jvv  for current_namespace  prod-bre
+root 1 0 0 Feb08 ? 00:07:27 java -jar app.jar
+Now checking POD: c1ng-deployment-8fcf69bfc-v9dnx  for current_namespace  prod-bre
+root 1 0 0 2021 ? 07:43:09 java -jar app.jar
+Now checking POD: cb1v3-deployment-b798bc64d-f59f9  for current_namespace  prod-bre
+root 1 0 0 Feb08 ? 00:07:45 java -jar app.jar
+Now checking POD: cb1v3-deployment-b798bc64d-lj49f  for current_namespace  prod-bre
+root 1 0 0 2021 ? 10:47:58 java -jar app.jar
+Now checking POD: getrulepackmobilebypartnum-576fbbf4d8-hdw8r  for current_namespace  prod-bre
+root 1 0 0 2021 ? 08:13:08 java -jar app.jar
+Now checking POD: getrulepackmobilebypartnum-576fbbf4d8-mpk99  for current_namespace  prod-bre
+root 1 0 0 2021 ? 07:47:31 java -jar app.jar
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-bre : Found 6 pods  without MaxRAMPercentage defined. Total number of java pods found: 6
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: ccms-proxy-7557c897f9-4p5rj  for current_namespace  prod-campaignmanagement
+1 root 56:24 java -Djava.security.properties=/root/security/enableLegac
+Now checking POD: ccms-proxy-7557c897f9-jhtv6  for current_namespace  prod-campaignmanagement
+1 root 52:48 java -Djava.security.properties=/root/security/enableLegac
+Now checking POD: ccms-proxy-7557c897f9-rtgdz  for current_namespace  prod-campaignmanagement
+1 root 51:00 java -Djava.security.properties=/root/security/enableLegac
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-campaignmanagement : Found 3 pods  without MaxRAMPercentage defined. Total number of java pods found: 3
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: callback-657d84b5b5-977pz  for current_namespace  prod-communicationhub
+1 dockerus 2h18 java -jar app.jar
+Now checking POD: informer-86c68c4b9d-7tm72  for current_namespace  prod-communicationhub
+1 dockerus 1d00 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: informer-86c68c4b9d-nh4hj  for current_namespace  prod-communicationhub
+1 dockerus 1d03 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: informer-86c68c4b9d-ql2dh  for current_namespace  prod-communicationhub
+1 dockerus 1d01 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: interactions-fc7bd98b8-2mzdf  for current_namespace  prod-communicationhub
+1 dockerus 3h48 java -Xmx410m -Xms256m -jar app.jar
+Now checking POD: interactions-fc7bd98b8-kk4fr  for current_namespace  prod-communicationhub
+1 dockerus 3h18 java -Xmx410m -Xms256m -jar app.jar
+Now checking POD: management-console-69b87cc784-g79g5  for current_namespace  prod-communicationhub
+1 dockerus 2h09 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: management-console-69b87cc784-r5blr  for current_namespace  prod-communicationhub
+1 dockerus 7d01 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: management-console-69b87cc784-v52w8  for current_namespace  prod-communicationhub
+1 dockerus 1d10 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: message-receiver-6ff67d5db-szs9m  for current_namespace  prod-communicationhub
+1 dockerus 6h30 java -Djavax.xml.parsers.DocumentBuilderFactory=com.sun.or
+Now checking POD: message-receiver-6ff67d5db-vjfcl  for current_namespace  prod-communicationhub
+1 dockerus 5h07 java -Djavax.xml.parsers.DocumentBuilderFactory=com.sun.or
+Now checking POD: message-receiver-6ff67d5db-wrfdx  for current_namespace  prod-communicationhub
+1 dockerus 6h13 java -Djavax.xml.parsers.DocumentBuilderFactory=com.sun.or
+Now checking POD: ocs-provisioning-c89bb4f58-524c5  for current_namespace  prod-communicationhub
+1 dockerus 3h29 java -XX:MinRAMPercentage=15 -XX:InitialRAMPercentage=15 -
+Now checking POD: processor-8bf6668c8-6bzf9  for current_namespace  prod-communicationhub
+1 dockerus 1d15 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: processor-8bf6668c8-76j4t  for current_namespace  prod-communicationhub
+1 dockerus 2h16 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: processor-8bf6668c8-dskf9  for current_namespace  prod-communicationhub
+1 dockerus 1d15 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: scheduler-5b644bdd54-44xlr  for current_namespace  prod-communicationhub
+1 dockerus 2d07 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: scheduler-5b644bdd54-64pnz  for current_namespace  prod-communicationhub
+1 dockerus 7h46 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: scheduler-5b644bdd54-t7sdx  for current_namespace  prod-communicationhub
+1 dockerus 53:15 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: transmitter-6c4666849f-4dwng  for current_namespace  prod-communicationhub
+1 dockerus 1h56 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: transmitter-6c4666849f-5x5rh  for current_namespace  prod-communicationhub
+1 dockerus 1h55 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: transmitter-6c4666849f-qzdxn  for current_namespace  prod-communicationhub
+1 dockerus 18h28 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-communicationhub : Found 22 pods  without MaxRAMPercentage defined. Total number of java pods found: 22
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: clmp-core-7cb775785f-9ccmh  for current_namespace  prod-consentmp
+1 root 55:05 java -Dcom.sun.jndi.ldap.object.disableEndpointIdentificat
+Now checking POD: clmp-core-7cb775785f-mp6l2  for current_namespace  prod-consentmp
+1 root 45:57 java -Dcom.sun.jndi.ldap.object.disableEndpointIdentificat
+Now checking POD: individual-consent-management-5b98f9bfc8-lkqc2  for current_namespace  prod-consentmp
+root 1 0 3 10:34 ? 00:13:20 java -Djava.security.egd=file:/d
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-consentmp : Found 3 pods  without MaxRAMPercentage defined. Total number of java pods found: 3
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: adapter-68d5bbd58c-85ktl  for current_namespace  prod-contractmp
+root 1 0 0 Feb06 ? 00:32:09 java -XX:MaxRAMPercentage=75 -Xs
+Now checking POD: backend-799757d8f-bwpg6  for current_namespace  prod-contractmp
+1 root 1h38 java -Xlog:gc*=debug:/tmp/gc.log:utctime,pid,tags:filecoun
+Now checking POD: backend-799757d8f-wthsv  for current_namespace  prod-contractmp
+1 root 1h46 java -Xlog:gc*=debug:/tmp/gc.log:utctime,pid,tags:filecoun
+Now checking POD: data-collector-6f876cb48f-d5g2d  for current_namespace  prod-contractmp
+1 root 6:49 java -Xlog:gc*=debug:/tmp/gc.log:utctime,pid,tags:filecoun
+Now checking POD: data-collector-6f876cb48f-g77f9  for current_namespace  prod-contractmp
+1 root 7:26 java -Xlog:gc*=debug:/tmp/gc.log:utctime,pid,tags:filecoun
+Now checking POD: orchestrator-85b4845f7c-6cxz9  for current_namespace  prod-contractmp
+root 1 0 0 Feb04 ? 01:00:54 java -XX:MaxRAMPercentage=75 -Xs
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-contractmp : Found 4 pods  without MaxRAMPercentage defined. Total number of java pods found: 6
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: coupon-management-api-7545f79f96-fqbw2  for current_namespace  prod-coupons
+1 root 6:00 java -jar app.jar
+Now checking POD: coupon-management-api-7545f79f96-kkbzk  for current_namespace  prod-coupons
+1 root 5:55 java -jar app.jar
+Now checking POD: crmgifts-6bbf65648-5pns8  for current_namespace  prod-coupons
+root 1 0 0 13:43 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 1 13:43 ? 00:01:48 java -Xms384m -Xmx768m -Duser.ti
+Now checking POD: crmgifts-6bbf65648-96b2g  for current_namespace  prod-coupons
+root 1 0 0 13:47 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 1 13:47 ? 00:01:41 java -Xms384m -Xmx768m -Duser.ti
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-coupons : Found 4 pods  without MaxRAMPercentage defined. Total number of java pods found: 4
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: asset-360-api-64db9cdbc5-jcwq7  for current_namespace  prod-customermanagement
+1 root 1h01 java -Xms512m -Xmx512m -Duser.timezone=Europe/Athens -Dcoh
+Now checking POD: asset-360-api-64db9cdbc5-lg5xm  for current_namespace  prod-customermanagement
+1 root 43:41 java -Xms512m -Xmx512m -Duser.timezone=Europe/Athens -Dcoh
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-customermanagement : Found 2 pods  without MaxRAMPercentage defined. Total number of java pods found: 2
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: bo-credit-7ddfc8df76-brvvk  for current_namespace  prod-customerorderestablishment
+root 1 0 1 Feb04 ? 01:49:20 java -XX:MaxRAMPercentage=75 -Xs
+Now checking POD: bo-shipping-9d57c57c7-7s2wd  for current_namespace  prod-customerorderestablishment
+root 1 0 1 Feb04 ? 02:05:57 java -XX:MaxRAMPercentage=75 -Xs
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-customerorderestablishment : No pods without MaxRAMPercentage were found. Total number of java pods found: 2
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: topup-5bf7cc97c-25dkz  for current_namespace  prod-digiservices
+1 root 6h36 java -Djava.security.egd=file:/dev/./urandom -jar app.jar
+Now checking POD: topup-5bf7cc97c-zvnxs  for current_namespace  prod-digiservices
+1 root 5h54 java -Djava.security.egd=file:/dev/./urandom -jar app.jar
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-digiservices : Found 2 pods  without MaxRAMPercentage defined. Total number of java pods found: 2
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: dom-6c779c75f6-zk5p4  for current_namespace  prod-distributedom
+1 dockerus 1h17 java -Dlog4j2.formatMsgNoLookups=true -XX:MinRAMPercentage
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-distributedom : Found 1 pods  without MaxRAMPercentage defined. Total number of java pods found: 1
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: whatsupbff-6f4b5dcc8c-78nw7  for current_namespace  prod-dtp
+1 root 16:18 java -jar app.jar
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-dtp : Found 1 pods  without MaxRAMPercentage defined. Total number of java pods found: 1
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-f1 : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-idmprov : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: accounting-management-854f6b4fdc-5w4ft  for current_namespace  prod-insurance
+1 root 5h53 java -jar app.jar
+Now checking POD: accounting-management-854f6b4fdc-sx4xg  for current_namespace  prod-insurance
+1 root 7:54 java -jar app.jar
+Now checking POD: back-office-bff-97454f464-4926j  for current_namespace  prod-insurance
+1 root 7h25 java -jar app.jar
+Now checking POD: back-office-bff-97454f464-77s6w  for current_namespace  prod-insurance
+1 root 5h25 java -jar app.jar
+Now checking POD: business-administration-6c749d58fb-lgwft  for current_namespace  prod-insurance
+1 root 8h49 java -jar app.jar
+Now checking POD: business-administration-6c749d58fb-zhlwv  for current_namespace  prod-insurance
+1 root 8h20 java -jar app.jar
+Now checking POD: communication-management-5c78478984-7rfng  for current_namespace  prod-insurance
+1 root 7h56 java -jar app.jar
+Now checking POD: communication-management-5c78478984-tvv77  for current_namespace  prod-insurance
+1 root 11h13 java -jar app.jar
+Now checking POD: contract-management-57dbfb5777-9st2h  for current_namespace  prod-insurance
+1 root 10h25 java -jar app.jar
+Now checking POD: contract-management-57dbfb5777-x5qx2  for current_namespace  prod-insurance
+1 root 3h44 java -jar app.jar
+Now checking POD: end-user-bff-6c666b568c-529zf  for current_namespace  prod-insurance
+1 root 6:38 java -jar app.jar
+Now checking POD: end-user-bff-6c666b568c-rdbrs  for current_namespace  prod-insurance
+1 root 7h27 java -jar app.jar
+Now checking POD: externalapis-6db9f8dbfc-9ltbr  for current_namespace  prod-insurance
+1 root 2h43 java -jar app.jar
+Now checking POD: externalapis-6db9f8dbfc-lwrz9  for current_namespace  prod-insurance
+1 root 8h32 java -jar app.jar
+Now checking POD: product-factory-75df455c97-c7kzx  for current_namespace  prod-insurance
+1 root 5h01 java -jar app.jar
+Now checking POD: product-factory-75df455c97-clf29  for current_namespace  prod-insurance
+1 root 7h34 java -jar app.jar
+Now checking POD: production-file-management-6f45467c59-cdjkt  for current_namespace  prod-insurance
+1 root 8h01 java -jar app.jar
+Now checking POD: sales-management-79475874bf-2fblc  for current_namespace  prod-insurance
+1 root 14h19 java -jar app.jar
+Now checking POD: sales-management-79475874bf-gbrnm  for current_namespace  prod-insurance
+1 root 5h13 java -jar app.jar
+Now checking POD: ticketing-management-7697b696d9-dx549  for current_namespace  prod-insurance
+1 dockerus 3h14 java -jar app.jar
+Now checking POD: ticketing-management-7697b696d9-qsdpr  for current_namespace  prod-insurance
+1 dockerus 8h29 java -jar app.jar
+Now checking POD: user-role-management-857d555cc6-6t7rn  for current_namespace  prod-insurance
+1 root 6h55 java -Doracle.jdbc.fanEnabled=false -jar app.jar
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-insurance : Found 22 pods  without MaxRAMPercentage defined. Total number of java pods found: 22
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: accountmanagement-744cdb5648-6vpnd  for current_namespace  prod-integration
+root 1 0 0 Jan26 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 2 Jan26 ? 07:11:32 java -Xmx410m -Xms256m -jar app.
+Now checking POD: accountmanagement-744cdb5648-hfqvr  for current_namespace  prod-integration
+root 1 0 0 Feb08 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 1 Feb08 ? 00:34:47 java -Xmx410m -Xms256m -jar app.
+Now checking POD: assetquery-548ccbff7d-5nvql  for current_namespace  prod-integration
+root 1 0 0 Feb01 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 Feb01 ? 00:46:58 java -Xms600m -Xmx700m -Duser.ti
+Now checking POD: assetquery-548ccbff7d-njln4  for current_namespace  prod-integration
+root 1 0 0 Feb01 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 Feb01 ? 00:42:28 java -Xms600m -Xmx700m -Duser.ti
+Now checking POD: clmp-customer-tree-798cf46444-6xsk6  for current_namespace  prod-integration
+1 root 0:55 java -jar app.jar
+Now checking POD: clmp-customer-tree-798cf46444-nmqdl  for current_namespace  prod-integration
+1 root 0:46 java -jar app.jar
+Now checking POD: contract-pricing-calculation-688ffbd4b9-cz9cb  for current_namespace  prod-integration
+root 1 0 0 Jan30 ? 01:34:11 java -Djava.security.egd=file:/d
+Now checking POD: createtaskfromexternal-7897465687-sbhvb  for current_namespace  prod-integration
+1 dockerus 1h11 java -jar app.jar
+Now checking POD: customer-bill-management-598b64f958-24nqg  for current_namespace  prod-integration
+root 1 0 0 Feb01 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 Feb01 ? 00:47:40 java -Xms512m -Xmx512m -Dcoheren
+Now checking POD: customer-bill-management-598b64f958-qv67n  for current_namespace  prod-integration
+root 1 0 0 Feb01 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 Feb01 ? 00:58:51 java -Xms512m -Xmx512m -Dcoheren
+Now checking POD: idm-management-7df955446c-hmjgg  for current_namespace  prod-integration
+root 1 0 0 2021 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 15 1 0 2021 ? 05:15:16 java -Xmx410m -Xms256m -jar app.
+Now checking POD: idm-management-7df955446c-hr942  for current_namespace  prod-integration
+root 1 0 0 2021 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 2021 ? 05:30:14 java -Xmx410m -Xms256m -jar app.
+Now checking POD: ilink-provisioning-778c88f446-zr98b  for current_namespace  prod-integration
+1 dockerus 1d01 java -Djava.security.egd=file:/dev/./urandom -XX:+UseSeria
+Now checking POD: logging-7bcc5ffb6d-zktfk  for current_namespace  prod-integration
+root 1 0 9 Feb08 ? 02:06:13 java -XX:NativeMemoryTracking=su
+Now checking POD: opportunities-67b6f894c9-dzm59  for current_namespace  prod-integration
+1 dockerus 17h59 java -jar app.jar
+Now checking POD: opportunities-67b6f894c9-ghs94  for current_namespace  prod-integration
+1 dockerus 20h04 java -jar app.jar
+Now checking POD: otp-service-75545ff44d-thg8p  for current_namespace  prod-integration
+1 dockerus 5h50 java -jar app.jar
+Now checking POD: prepaidasset-receiver-7c968c8f4c-58f8g  for current_namespace  prod-integration
+1 dockerus 8h28 java -jar app.jar
+Now checking POD: prepaidasset-transmitter-75848cb4b5-fpdcd  for current_namespace  prod-integration
+1 dockerus 16h43 java -jar app.jar
+Now checking POD: product-inventory-7db8c5c854-8gdd7  for current_namespace  prod-integration
+1 root 17:18 java -Xms410m -Xmx410m -Duser.timezone=Europe/Athens -Dtan
+Now checking POD: product-inventory-7db8c5c854-p5k58  for current_namespace  prod-integration
+1 root 25:13 java -Xms410m -Xmx410m -Duser.timezone=Europe/Athens -Dtan
+Now checking POD: retrieve-usage-consumption-56b8b7d488-jbmsk  for current_namespace  prod-integration
+1 root 1h24 java -Xms512m -Xmx512m -Duser.timezone=Europe/Athens -Dcoh
+Now checking POD: retrieve-usage-consumption-56b8b7d488-xcpdc  for current_namespace  prod-integration
+1 root 1h20 java -Xms512m -Xmx512m -Duser.timezone=Europe/Athens -Dcoh
+Now checking POD: retrievecustomerinfo-775d7ff584-4pxmz  for current_namespace  prod-integration
+1 root 2h44 java -Xms1024m -Xmx1024m -Duser.timezone=Europe/Athens -Dc
+Now checking POD: retrievecustomerinfo-775d7ff584-mfjxm  for current_namespace  prod-integration
+1 root 2h36 java -Xms1024m -Xmx1024m -Duser.timezone=Europe/Athens -Dc
+Now checking POD: retrieveexistingcustomers-667d96f877-hdk7x  for current_namespace  prod-integration
+1 root 41:27 java -jar app.jar
+Now checking POD: retrieveexistingcustomers-667d96f877-lxxrf  for current_namespace  prod-integration
+1 root 36:52 java -jar app.jar
+Now checking POD: searchcustomerucm-b49456d5d-4nwfz  for current_namespace  prod-integration
+root 1 0 0 Feb01 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 4 Feb01 ? 08:08:27 java -Xms512m -Xmx768m -Duser.ti
+Now checking POD: searchcustomerucm-b49456d5d-fzlcp  for current_namespace  prod-integration
+root 1 0 0 Feb01 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 4 Feb01 ? 09:29:14 java -Xms512m -Xmx768m -Duser.ti
+Now checking POD: searchcustomerucm-b49456d5d-ldbh4  for current_namespace  prod-integration
+root 1 0 0 Feb01 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 3 Feb01 ? 07:30:04 java -Xms512m -Xmx768m -Duser.ti
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-integration : Found 30 pods  without MaxRAMPercentage defined. Total number of java pods found: 30
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: api-d9744dd6d-5v45r  for current_namespace  prod-itarc
+1: -XX:CICompilerCount=2 -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=914358272 -XX:MaxNewSize=304742400 -XX:MaxRAMPercentage=85.000000 -XX:MinHeapDeltaBytes=196608 -XX:NewSize=178913280 -XX:NonNMethodCodeHeapSize=5825164 -XX:NonProfiledCodeHeapSize=122916538 -XX:OldSize=357957632 -XX:ProfiledCodeHeapSize=122916538 -XX:ReservedCodeCacheSize=251658240 -XX:+SegmentedCodeCache -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseFastUnorderedTimeStamps -XX:+UseSerialGC
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-itarc : No pods without MaxRAMPercentage were found. Total number of java pods found: 2
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: auth-ff45cdcdf-crhtm  for current_namespace  prod-miservices
+1 root 5h38 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: auth-ff45cdcdf-dgjzr  for current_namespace  prod-miservices
+1 root 5h38 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: auth-ff45cdcdf-hjc45  for current_namespace  prod-miservices
+1 root 5h35 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: auth-ff45cdcdf-mg6rr  for current_namespace  prod-miservices
+1 root 5h47 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: auth-ff45cdcdf-n4rwf  for current_namespace  prod-miservices
+1 root 4h28 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: auth-ff45cdcdf-rnwg8  for current_namespace  prod-miservices
+1 root 5h34 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: auth-ff45cdcdf-tbhj2  for current_namespace  prod-miservices
+1 root 4h43 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: auth-ff45cdcdf-wvg7v  for current_namespace  prod-miservices
+1 root 4h48 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: bigdata-7bf95bc767-msw7p  for current_namespace  prod-miservices
+1 root 6h57 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: bigdata-7bf95bc767-tgcw9  for current_namespace  prod-miservices
+1 root 1d03 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: bills-774c9c95fd-9bf25  for current_namespace  prod-miservices
+1 root 2h03 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: bills-774c9c95fd-fcjt2  for current_namespace  prod-miservices
+1 root 2h00 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: bills-774c9c95fd-fqd5f  for current_namespace  prod-miservices
+1 root 2h13 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: bills-774c9c95fd-t4sqz  for current_namespace  prod-miservices
+1 root 2h13 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: catalog-5fb69b5cfc-7gj6n  for current_namespace  prod-miservices
+1 root 19:40 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: catalog-5fb69b5cfc-blt5q  for current_namespace  prod-miservices
+1 root 49:42 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: catalog-5fb69b5cfc-qvl25  for current_namespace  prod-miservices
+1 root 6h44 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: ctt-75cd599ff5-n6z6l  for current_namespace  prod-miservices
+1 root 18h18 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: ctt-75cd599ff5-z7hh5  for current_namespace  prod-miservices
+1 root 20h14 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: deeplink-76f59cbb68-9r4cn  for current_namespace  prod-miservices
+1 root 2h59 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: deeplink-76f59cbb68-jvzmr  for current_namespace  prod-miservices
+1 root 3h08 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: offers-75bb985d49-blxqq  for current_namespace  prod-miservices
+1 root 19:25 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: offers-75bb985d49-hx8k8  for current_namespace  prod-miservices
+1 root 3h38 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: offers-75bb985d49-k8sfc  for current_namespace  prod-miservices
+1 root 3h06 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: orders-8559c55cf5-kvqpf  for current_namespace  prod-miservices
+1 root 4h23 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: orders-8559c55cf5-rfgc7  for current_namespace  prod-miservices
+1 root 4h45 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: pushnotifs-647b4c7c66-d9mmm  for current_namespace  prod-miservices
+1 root 3h14 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: pushnotifs-647b4c7c66-w8z4g  for current_namespace  prod-miservices
+1 root 3h08 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: recharge-7b68cd5594-h4plm  for current_namespace  prod-miservices
+1 root 20:45 java -XX:MaxRAMPercentage=75.0 -Djava.security.egd=file:/d
+Now checking POD: recharge-7b68cd5594-vjwjb  for current_namespace  prod-miservices
+1 root 13:06 java -XX:MaxRAMPercentage=75.0 -Djava.security.egd=file:/d
+Now checking POD: usage-78b7f47d75-8ztth  for current_namespace  prod-miservices
+1 root 4h31 java -XX:MinRAMPercentage=75.0 -XX:InitialRAMPercentage=75
+Now checking POD: usage-78b7f47d75-dggmb  for current_namespace  prod-miservices
+1 root 3h50 java -XX:MinRAMPercentage=75.0 -XX:InitialRAMPercentage=75
+Now checking POD: usage-78b7f47d75-k4bcf  for current_namespace  prod-miservices
+1 root 3h53 java -XX:MinRAMPercentage=75.0 -XX:InitialRAMPercentage=75
+Now checking POD: usage-78b7f47d75-vpk7f  for current_namespace  prod-miservices
+1 root 4h07 java -XX:MinRAMPercentage=75.0 -XX:InitialRAMPercentage=75
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-miservices : Found 4 pods  without MaxRAMPercentage defined. Total number of java pods found: 34
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-mongointegration : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-mongomiservices : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-mongopt : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-mongosm : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-mongotroubleticket : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-mysql-ordermanagement : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-mysql-poq : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: orderstatus-display-8cc4d8d7c-x2xgk  for current_namespace  prod-ordermanagement
+1 dockerus 1h31 java -jar app.jar
+Now checking POD: xmas-addon-ordercheck-6cb7f58f55-8jvpl  for current_namespace  prod-ordermanagement
+1 dockerus 1h14 java -jar app.jar
+Now checking POD: xmas-addon-ordercheck-6cb7f58f55-g7t4l  for current_namespace  prod-ordermanagement
+1 dockerus 1h15 java -jar app.jar
+Now checking POD: xmas-addon-orderhandle-7dd84446c8-8zbmb  for current_namespace  prod-ordermanagement
+1 dockerus 1h31 java -jar app.jar
+Now checking POD: xmas-addon-orderplace-677dd8d568-dpgbs  for current_namespace  prod-ordermanagement
+1 dockerus 1h24 java -jar app.jar
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-ordermanagement : Found 5 pods  without MaxRAMPercentage defined. Total number of java pods found: 5
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: bff-5f59fd58b-frrll  for current_namespace  prod-paymentmanagement
+1 root 21:59 java -jar app.jar
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-paymentmanagement : Found 1 pods  without MaxRAMPercentage defined. Total number of java pods found: 1
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: krm-57665cbd59-9n6z6  for current_namespace  prod-payments
+1 root 1h01 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: krm-57665cbd59-knxgj  for current_namespace  prod-payments
+1 root 1h07 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: nbg-858f8c58d9-px684  for current_namespace  prod-payments
+1 root 50:15 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: nbg-858f8c58d9-rwbk7  for current_namespace  prod-payments
+1 root 46:52 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: pabatch-c447b54c6-5c455  for current_namespace  prod-payments
+1 root 9:47 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: pgi-5b7db6c67d-bdsxt  for current_namespace  prod-payments
+1 root 2h29 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: pgi-5b7db6c67d-bnlhv  for current_namespace  prod-payments
+1 root 2h20 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: pgi-5b7db6c67d-rtpkx  for current_namespace  prod-payments
+1 root 2h29 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: pgm-6df5c8548d-7zs9f  for current_namespace  prod-payments
+1 root 3h54 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: pgm-6df5c8548d-b4s86  for current_namespace  prod-payments
+1 root 4h06 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: popa-64bfcfcbdb-brmxw  for current_namespace  prod-payments
+1 root 4h39 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: popa-64bfcfcbdb-gl2m7  for current_namespace  prod-payments
+1 root 4h48 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: popa-64bfcfcbdb-nqfjr  for current_namespace  prod-payments
+1 root 3h54 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: popa-64bfcfcbdb-r6hhb  for current_namespace  prod-payments
+1 root 4h31 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: producer-85b9c4959f-779nf  for current_namespace  prod-payments
+1 root 1h11 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: producer-85b9c4959f-kxkkz  for current_namespace  prod-payments
+1 root 1h13 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: proxy-668c7dfd-h7fms  for current_namespace  prod-payments
+1 root 58:43 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: proxy-668c7dfd-l4752  for current_namespace  prod-payments
+1 root 44:42 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: reconciliation-8548b75794-xb26w  for current_namespace  prod-payments
+1 root 2h08 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: rps-74b54cb8fc-5mck4  for current_namespace  prod-payments
+1 root 1h26 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: rps-74b54cb8fc-72vfq  for current_namespace  prod-payments
+1 root 1h34 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: rps-74b54cb8fc-dfjqj  for current_namespace  prod-payments
+1 root 1h39 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: rps-74b54cb8fc-s7mvl  for current_namespace  prod-payments
+1 root 1h44 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: sia-6f9c57d9c7-7l4v7  for current_namespace  prod-payments
+1 root 4h23 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: sia-6f9c57d9c7-lv65x  for current_namespace  prod-payments
+1 root 4h40 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-payments : No pods without MaxRAMPercentage were found. Total number of java pods found: 25
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: bff-b6f584c4d-5qw58  for current_namespace  prod-portability
+1 dockerus 11:57 java -Dlog4j2.formatMsgNoLookups=true -XX:MinRAMPercentage
+Now checking POD: bff-b6f584c4d-shk7c  for current_namespace  prod-portability
+1 dockerus 11:27 java -Dlog4j2.formatMsgNoLookups=true -XX:MinRAMPercentage
+Now checking POD: clients-76464dd7ff-brbtr  for current_namespace  prod-portability
+1 dockerus 21:02 java -Dlog4j2.formatMsgNoLookups=true -XX:MinRAMPercentage
+Now checking POD: core-869c6d65f9-h6rjs  for current_namespace  prod-portability
+1 dockerus 7:18 java -Dlog4j2.formatMsgNoLookups=true -XX:MinRAMPercentage
+Now checking POD: core-869c6d65f9-pvl24  for current_namespace  prod-portability
+1 dockerus 29:28 java -Dlog4j2.formatMsgNoLookups=true -XX:MinRAMPercentage
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-portability : Found 5 pods  without MaxRAMPercentage defined. Total number of java pods found: 5
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: businessmaildiscounts-bs-5d48c98fdd-lgk2x  for current_namespace  prod-productcatalogue
+root 1 0 0 Feb07 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 Feb07 ? 00:17:50 java -Xms256m -Xmx512m -Duser.ti
+Now checking POD: businessmaildiscounts-bs-5d48c98fdd-mp954  for current_namespace  prod-productcatalogue
+root 1 0 0 14:31 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 1 14:31 ? 00:01:15 java -Xms256m -Xmx512m -Duser.ti
+Now checking POD: businessmaildiscounts-rules-7f5c848488-8kd6z  for current_namespace  prod-productcatalogue
+root 1 0 0 2021 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 2021 ? 05:36:35 java -Xmx768m -Xms512m -Duser.ti
+Now checking POD: businessmaildiscounts-rules-7f5c848488-kq986  for current_namespace  prod-productcatalogue
+root 1 0 0 2021 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 2021 ? 06:39:26 java -Xmx768m -Xms512m -Duser.ti
+Now checking POD: c1ng-5dfc48bf87-9tbzz  for current_namespace  prod-productcatalogue
+root 1 0 0 2021 ? 00:00:00 /bin/sh -c java -jar app.jar root 15 1 2 2021 ? 1-06:02:45 java -jar app.jar
+Now checking POD: c1ng-5dfc48bf87-tf5df  for current_namespace  prod-productcatalogue
+root 1 0 0 2021 ? 00:00:00 /bin/sh -c java -jar app.jar root 16 1 2 2021 ? 1-10:58:22 java -jar app.jar
+Now checking POD: c1ng-5dfc48bf87-tnjxl  for current_namespace  prod-productcatalogue
+root 1 0 0 2021 ? 00:00:00 /bin/sh -c java -jar app.jar root 15 1 2 2021 ? 1-10:43:00 java -jar app.jar
+Now checking POD: cb1-bs-5678d4f6c6-9g86x  for current_namespace  prod-productcatalogue
+root 1 0 0 Feb04 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 Feb04 ? 00:27:18 java -XX:InitialRAMPercentage=50
+Now checking POD: cb1-bs-5678d4f6c6-ldw8x  for current_namespace  prod-productcatalogue
+root 1 0 0 Feb04 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 Feb04 ? 00:40:44 java -XX:InitialRAMPercentage=50
+Now checking POD: cpe-authentication-8bff79784-fr5g2  for current_namespace  prod-productcatalogue
+1 root 7:13 java -jar app.jar
+Now checking POD: cpe-matrixservice-d4f999cd-jlqbb  for current_namespace  prod-productcatalogue
+1 root 10:11 java -Djava.awt.headless=true -jar app.jar
+Now checking POD: permsidn-bs-8594576cb-22vck  for current_namespace  prod-productcatalogue
+root 1 0 0 Feb08 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 Feb08 ? 00:07:49 java -Dlog4j2.formatMsgNoLookups
+Now checking POD: permsidn-bs-8594576cb-m5c76  for current_namespace  prod-productcatalogue
+root 1 0 0 2021 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 2021 ? 04:10:14 java -Dlog4j2.formatMsgNoLookups
+Now checking POD: productcatalogue-ms-5bf46446b8-d2mbl  for current_namespace  prod-productcatalogue
+root 1 0 7 10:37 ? 00:32:38 java -Dkie.maven.settings.custom
+Now checking POD: productcatalogue-ms-5bf46446b8-tct2f  for current_namespace  prod-productcatalogue
+root 1 0 6 10:38 ? 00:29:32 java -Dkie.maven.settings.custom
+Now checking POD: promotransition-bs-54f55d4fd8-g8gx4  for current_namespace  prod-productcatalogue
+root 1 0 0 17:38 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 6 17:38 ? 00:00:39 java -Xmx410m -Xms256m -jar app.
+Now checking POD: retrieveassetdatafull-bs-86968cc956-ngbsd  for current_namespace  prod-productcatalogue
+root 1 0 0 Feb01 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 Feb01 ? 00:59:14 java -Xms600m -Xmx600m -Duser.ti
+Now checking POD: retrieveassetdatafull-bs-86968cc956-s2vdn  for current_namespace  prod-productcatalogue
+root 1 0 0 Feb01 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 Feb01 ? 00:50:06 java -Xms600m -Xmx600m -Duser.ti
+Now checking POD: retrievec1eligibledata-6dd59975bd-mnfrt  for current_namespace  prod-productcatalogue
+root 1 0 0 Feb08 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 2 Feb08 ? 00:30:04 java -XX:InitialRAMPercentage=50
+Now checking POD: retrievec1eligibledata-6dd59975bd-pg76m  for current_namespace  prod-productcatalogue
+root 1 0 0 Feb08 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 2 Feb08 ? 00:34:35 java -XX:InitialRAMPercentage=50
+Now checking POD: subsidy-core-service-645d697cd4-cvgbm  for current_namespace  prod-productcatalogue
+1 root 7h23 java -jar app.jar
+Now checking POD: subsidy-data-provider-767bcfd95f-k9lj8  for current_namespace  prod-productcatalogue
+1 root 9:50 java -jar -Doracle.jdbc.timezoneAsRegion=false app.jar
+Now checking POD: subsidy-data-service-6f698ccb8d-6xr8w  for current_namespace  prod-productcatalogue
+1 root 15:05 java -jar app.jar
+Now checking POD: subsidy-data-service-6f698ccb8d-rm6m6  for current_namespace  prod-productcatalogue
+1 root 18:16 java -jar app.jar
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-productcatalogue : Found 24 pods  without MaxRAMPercentage defined. Total number of java pods found: 24
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: auth-5ccc5cfc9f-46cpm  for current_namespace  prod-retail-inventory
+8 root 3d18 java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n
+Now checking POD: auth-5ccc5cfc9f-8q5j9  for current_namespace  prod-retail-inventory
+8 root 1d08 java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n
+Now checking POD: auth-5ccc5cfc9f-ghgq9  for current_namespace  prod-retail-inventory
+8 root 3d13 java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n
+Now checking POD: auth-5ccc5cfc9f-r9z4f  for current_namespace  prod-retail-inventory
+8 root 3d01 java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n
+Now checking POD: auth-5ccc5cfc9f-t6dhl  for current_namespace  prod-retail-inventory
+8 root 3d12 java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n
+Now checking POD: auth-5ccc5cfc9f-wdg59  for current_namespace  prod-retail-inventory
+8 root 3d04 java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n
+Now checking POD: cart-flex-c89987c56-6j2sf  for current_namespace  prod-retail-inventory
+7 root 3d11 java -Djava.security.egd=file:/dev/./urandom org.springfra
+Now checking POD: cart-flex-c89987c56-pt4jq  for current_namespace  prod-retail-inventory
+8 root 3d21 java -Djava.security.egd=file:/dev/./urandom org.springfra
+Now checking POD: cart-flex-c89987c56-qvsdv  for current_namespace  prod-retail-inventory
+8 root 3d17 java -Djava.security.egd=file:/dev/./urandom org.springfra
+Now checking POD: cart-flex-c89987c56-tjrdl  for current_namespace  prod-retail-inventory
+7 root 55:31 java -Djava.security.egd=file:/dev/./urandom org.springfra
+Now checking POD: commercegateway-86cf45f4ff-4qtvk  for current_namespace  prod-retail-inventory
+8 root 5h09 java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n
+Now checking POD: commercegateway-86cf45f4ff-7vv4j  for current_namespace  prod-retail-inventory
+9 root 5h45 java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n
+Now checking POD: commercegateway-86cf45f4ff-bfk5h  for current_namespace  prod-retail-inventory
+8 root 4h54 java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n
+Now checking POD: commercegateway-86cf45f4ff-dhnxr  for current_namespace  prod-retail-inventory
+8 root 5h59 java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n
+Now checking POD: commercegateway-86cf45f4ff-qlrg8  for current_namespace  prod-retail-inventory
+8 root 5h27 java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n
+Now checking POD: distributed-order-management-776db8f9cf-6fq8v  for current_namespace  prod-retail-inventory
+1 dockerus 2h55 java -jar app.jar
+Now checking POD: distributed-order-management-776db8f9cf-jhp8d  for current_namespace  prod-retail-inventory
+1 dockerus 5h05 java -jar app.jar
+Now checking POD: distributed-order-management-776db8f9cf-lbdts  for current_namespace  prod-retail-inventory
+1 dockerus 8:40 java -jar app.jar
+Now checking POD: distributed-order-management-776db8f9cf-ztxm9  for current_namespace  prod-retail-inventory
+1 dockerus 5h23 java -jar app.jar
+Now checking POD: global-inventory-management-6745947d99-5cwvq  for current_namespace  prod-retail-inventory
+1 dockerus 7h57 java -jar app.jar
+Now checking POD: global-inventory-management-6745947d99-9pdvb  for current_namespace  prod-retail-inventory
+1 dockerus 6h54 java -jar app.jar
+Now checking POD: global-inventory-management-6745947d99-bv2b5  for current_namespace  prod-retail-inventory
+1 dockerus 7h05 java -jar app.jar
+Now checking POD: global-inventory-management-6745947d99-g282f  for current_namespace  prod-retail-inventory
+1 dockerus 7h32 java -jar app.jar
+Now checking POD: global-inventory-management-6745947d99-jd6zf  for current_namespace  prod-retail-inventory
+1 dockerus 7h53 java -jar app.jar
+Now checking POD: global-inventory-management-6745947d99-tkmkz  for current_namespace  prod-retail-inventory
+1 dockerus 7h57 java -jar app.jar
+Now checking POD: localsolr-76b4c4bd56-4wrs2  for current_namespace  prod-retail-inventory
+solr 1187 1 0 2021 ? 12:25:58 /usr/local/openjdk-11/bin/java -
+Now checking POD: zk-5f5658bf9b-f7nbz  for current_namespace  prod-retail-inventory
+appuser 1 0 0 Feb08 ? 00:06:38 java -Xmx512M -Xms512M -server -
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-retail-inventory : Found 27 pods  without MaxRAMPercentage defined. Total number of java pods found: 27
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: clmp-744fb448f5-j5gqd  for current_namespace  prod-selfcare
+1 dockerus 3h10 java -jar app.jar
+Now checking POD: idlelines-bff-5dbdd4d897-qnp8b  for current_namespace  prod-selfcare
+1 dockerus 1h13 java -jar -Doracle.jdbc.timezoneAsRegion=false app.jar
+Now checking POD: kala-bff-64b7f7f559-kkpnp  for current_namespace  prod-selfcare
+1 dockerus 38:31 java -jar app.jar
+Now checking POD: kala-usermanagement-68b46b6687-xbqmn  for current_namespace  prod-selfcare
+1 dockerus 1h03 java -jar app.jar
+Now checking POD: manage-bill-54f94dc8bc-hbqjc  for current_namespace  prod-selfcare
+1 dockerus 4:01 java -jar app.jar
+Now checking POD: orderstatus-bff-57f5977cf-4n7qc  for current_namespace  prod-selfcare
+1 dockerus 4h27 java -jar app.jar
+Now checking POD: recommendation-engine-bff-869654bbcf-fjhdw  for current_namespace  prod-selfcare
+1 dockerus 4h05 java -jar app.jar
+Now checking POD: usage-6cd8f9c888-xg4bj  for current_namespace  prod-selfcare
+1 dockerus 22:45 java -jar app.jar
+Now checking POD: usermanagement-55866897b4-qmjh4  for current_namespace  prod-selfcare
+1 dockerus 4:44 java -jar app.jar
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-selfcare : Found 9 pods  without MaxRAMPercentage defined. Total number of java pods found: 9
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: ppm-59484d46b9-8nhbv  for current_namespace  prod-subscriptionmanagement
+1 root 2:16 java -XX:InitialRAMPercentage=50 -XX:MaxRAMPercentage=75 -
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-subscriptionmanagement : No pods without MaxRAMPercentage were found. Total number of java pods found: 1
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: beapi-57bf6d99d7-9pxsg  for current_namespace  prod-techone
+1 root 55:04 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: beapi-57bf6d99d7-ssc8v  for current_namespace  prod-techone
+1 root 58:45 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: bff-5c89485c47-7gdqq  for current_namespace  prod-techone
+1 root 47:03 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: bff-5c89485c47-n89lw  for current_namespace  prod-techone
+1 root 39:02 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: user-84bb5f47dd-8sdk5  for current_namespace  prod-techone
+1 root 40:10 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+Now checking POD: user-84bb5f47dd-pl8gf  for current_namespace  prod-techone
+1 root 33:29 java -XX:MaxRAMPercentage=75.0 -jar app.jar
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-techone : No pods without MaxRAMPercentage were found. Total number of java pods found: 6
+-----------------------------------------------------------------------------------------------------------------------------------------
+Now checking POD: debt-rule-engine-8464d98948-d5p5k  for current_namespace  prod-troubleticketing
+root 1 0 0 2021 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 2021 ? 07:35:18 java -Xmx410m -Xms256m -jar app.
+Now checking POD: debt-rule-engine-8464d98948-sc9ks  for current_namespace  prod-troubleticketing
+root 1 0 0 2021 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 2021 ? 08:28:38 java -Xmx410m -Xms256m -jar app.
+Now checking POD: order-assigner-6dd4db65dd-6xjs7  for current_namespace  prod-troubleticketing
+1 root 9h50 java -XX:MinRAMPercentage=30 -XX:InitialRAMPercentage=30 -
+Now checking POD: retrieveocts-d8d4c8d99-khfzf  for current_namespace  prod-troubleticketing
+root 1 0 0 Feb01 ? 00:00:00 /bin/sh -c java ${JAVA_OPTS} -ja root 16 1 0 Feb01 ? 01:00:40 java -Xms600m -Xmx600m -Duser.ti
+Now checking POD: trouble-ticket-retriever-6b46768694-xgfnq  for current_namespace  prod-troubleticketing
+root 1 0 0 2021 ? 07:57:09 java -Djava.security.egd=file:/d
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace prod-troubleticketing : Found 5 pods  without MaxRAMPercentage defined. Total number of java pods found: 5
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace tools : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+For current_namespace typhon : No java pods were found (or no ps/jcmd binares installed)
+-----------------------------------------------------------------------------------------------------------------------------------------
