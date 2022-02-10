@@ -17,27 +17,21 @@ from functions import write_to_a_file
 parser = argparse.ArgumentParser()
 
 # Add an argument
-parser.add_argument('--namespace', type=str, required=True)
+parser.add_argument('--namespace', type=str, required=False,default="all",help='Namespace to search. Default is all namespaces')
+parser.add_argument('--string_to_search', type=str, required=True,default="MaxRAMPercentage",help='Default substring to search. Default is MaxRAMPercentage')
 
 # Parse the argument. If argument is empty or not good put default argument 
-try:
-  args = parser.parse_args()
-  ##The usage threshold if none is given as an argument
-  ##The ip of the NFS server
-  list_of_namespaces_string  = args.namespace
-  ##stupid solution to parse namespace later correct. Need to code this in a more elegant way
-  list_of_namespaces=[list_of_namespaces_string,""]
-except:
-  ##Get a list of the namespaces. 
-  get_namespaces_command="kubectl get ns --no-headers -o jsonpath='{.items[*].metadata.name}'"
-  list_of_namespaces = output_command(get_namespaces_command)
-  print("PARSING ALL NAMESPACES")
-
-
-
+args = parser.parse_args()
+list_of_namespaces_string  = args.namespace
+##stupid solution to parse namespace later correct. Need to code this in a more elegant way
+list_of_namespaces=[list_of_namespaces_string,""]
 ##substring to search
-substring="MaxRAMPercentage"
-
+substring=  args.string_to_search
+##Get a list of the namespaces if no namespace is given as an arg
+if list_of_namespaces_string == "all":
+   get_namespaces_command="kubectl get ns --no-headers -o jsonpath='{.items[*].metadata.name}'"
+   list_of_namespaces = output_command(get_namespaces_command)
+   print("PARSING ALL NAMESPACES")
 
 ##For all the current_namespaces
 for current_namespace in list_of_namespaces:
