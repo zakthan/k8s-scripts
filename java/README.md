@@ -11,3 +11,5 @@ optional arguments:
   -h, --help            show this help message and exit  
   --namespace NAMESPACE Namespace to search. Default is all namespaces  
   --string_to_search STRING_TO_SEARCH Default substring to search. Default is MaxRAMPercentage  
+
+For this script to work correct either ps or jcmd binaries have to be present at the container and set at PATH variable
