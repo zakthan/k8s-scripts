@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser()
 
 # Add an argument
 parser.add_argument('--namespace', type=str, required=False,default="all",help='Namespace to search. Default is all namespaces')
-parser.add_argument('--string_to_search', type=str, required=True,default="MaxRAMPercentage",help='Default substring to search. Default is MaxRAMPercentage')
+parser.add_argument('--string_to_search', type=str, required=False,default="MaxRAMPercentage",help='Default substring to search. Default is MaxRAMPercentage')
 
 # Parse the argument. If argument is empty or not good put default argument 
 args = parser.parse_args()
