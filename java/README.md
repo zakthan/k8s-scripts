@@ -1,4 +1,6 @@
-# Python script to calculate if a substring exist at the java arguments of a java proccess of a pod
+# Scripts related to java
+
+## java_arguments_check.py Python script to calculate if a substring exist at the java arguments of a java proccess of a pod
 
 usage: java_arguments_check.py [-h] [--namespace NAMESPACE] --string_to_search
                                STRING_TO_SEARCH
